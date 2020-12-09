@@ -1,6 +1,6 @@
 const express = require('express')
 const app = express();
-const port = 8000;
+const port = app.listen(process.env.PORT || 3000);
 const bodyParser = require('body-parser');
 const routes = require('./api/routes/codeIdentifierRoutes');
 
